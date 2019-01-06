@@ -1,0 +1,33 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --exec babel-node -e js",
+    "cats": "nodemon cats.js --exec babel-node -e js",
+    "build": "babel app.js -d dist"
+  },
+  "author": "Nattapon Sub-Anake",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.18.0",
+    "ejs": "2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "helmet": "3.15.0",
+    "mongoose": "^5.4.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "webpack": "4.28.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.4"
+  },
+  "keywords": []
+}
